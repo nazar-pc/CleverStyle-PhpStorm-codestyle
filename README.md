@@ -1,4 +1,4 @@
-Code style for PhpStorm (PHP, JS, CSS, LESS)
+Code style for PhpStorm (PHP, JavaScript, CoffeeScript, CSS, LESS, SCSS)
 
 It is mainly used by CleverStyle CMS project.
 

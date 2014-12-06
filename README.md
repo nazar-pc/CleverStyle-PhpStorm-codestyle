@@ -1,7 +1,5 @@
-Code style for PhpStorm (PHP, JavaScript, CoffeeScript, CSS, LESS, SCSS)
+Code style for PhpStorm (PHP, JavaScript, CoffeeScript, CSS, LESS, SCSS, JSON, SQL)
 
 It is mainly used by CleverStyle CMS project.
-
-For PhpStorm 6+ use CleverStyle.icls file, for previous versions CleverStyle.xml file.
 
 I hope, it will be helpful to use this ready code style file, for those, who prefer it.

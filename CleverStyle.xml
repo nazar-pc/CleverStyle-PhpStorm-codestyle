@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <code_scheme name="CleverStyle">
   <option name="OTHER_INDENT_OPTIONS">
     <value>
@@ -19,23 +18,32 @@
   <option name="HTML_KEEP_BLANK_LINES" value="0" />
   <CssCodeStyleSettings>
     <option name="VALUE_ALIGNMENT" value="1" />
-    <option name="BLANK_LINES_BETWEEN_BLOCKS" value="0" />
   </CssCodeStyleSettings>
   <JSCodeStyleSettings>
     <option name="SPACE_BEFORE_PROPERTY_COLON" value="true" />
     <option name="ALIGN_OBJECT_PROPERTIES" value="2" />
   </JSCodeStyleSettings>
+  <JSON>
+    <option name="SPACE_BEFORE_COLON" value="true" />
+    <option name="PROPERTY_ALIGNMENT" value="2" />
+  </JSON>
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="ALIGN_PHPDOC_PARAM_NAMES" value="true" />
     <option name="ALIGN_PHPDOC_COMMENTS" value="true" />
     <option name="ALIGN_ASSIGNMENTS" value="true" />
     <option name="CONCAT_SPACES" value="false" />
-    <option name="PHPDOC_KEEP_BLANK_LINES" value="false" />
     <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
-    <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
-    <option name="LOWER_CASE_NULL_CONST" value="true" />
+    <option name="ALIGN_CLASS_CONSTANTS" value="true" />
+    <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
   </PHPCodeStyleSettings>
+  <SqlCodeStyleSettings>
+    <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
+    <option name="NEW_LINE_BEFORE_JOIN_CONDITION" value="true" />
+    <option name="NEW_LINE_BEFORE_QUERY_INSIDE_PARENTHESIS" value="true" />
+    <option name="NEW_LINE_BEFORE_QUERY_INSIDE_DML" value="true" />
+    <option name="WRAP_INSIDE_CREATE_TABLE" value="5" />
+  </SqlCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
@@ -45,6 +53,9 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="CoffeeScript">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="false" />
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
@@ -60,12 +71,18 @@
       <option name="USE_TAB_CHARACTER" value="true" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="JSON">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="0" />
-    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
-    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="ALIGN_MULTILINE_FOR" value="false" />
     <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
-    <option name="CALL_PARAMETERS_WRAP" value="1" />
+    <option name="CALL_PARAMETERS_WRAP" value="5" />
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
@@ -86,23 +103,24 @@
   <codeStyleSettings language="PHP">
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
+    <option name="BLANK_LINES_BEFORE_IMPORTS" value="0" />
+    <option name="BLANK_LINES_AFTER_IMPORTS" value="0" />
+    <option name="BLANK_LINES_AROUND_CLASS" value="0" />
     <option name="BLANK_LINES_AROUND_METHOD" value="0" />
     <option name="CLASS_BRACE_STYLE" value="1" />
     <option name="METHOD_BRACE_STYLE" value="1" />
     <option name="SPECIAL_ELSE_IF_TREATMENT" value="true" />
-    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
-    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="ALIGN_MULTILINE_FOR" value="false" />
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
-    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+    <option name="ALIGN_GROUP_FIELD_DECLARATIONS" value="true" />
     <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
     <option name="EXTENDS_LIST_WRAP" value="5" />
     <option name="EXTENDS_KEYWORD_WRAP" value="1" />
-    <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
-    <option name="ARRAY_INITIALIZER_WRAP" value="5" />
-    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
-    <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
+    <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="ASSIGNMENT_WRAP" value="1" />
     <option name="IF_BRACE_FORCE" value="3" />
     <option name="DOWHILE_BRACE_FORCE" value="3" />
@@ -111,147 +129,6 @@
     <indentOptions>
       <option name="USE_TAB_CHARACTER" value="true" />
     </indentOptions>
-    <arrangement>
-      <groups>
-        <group>
-          <type>GETTERS_AND_SETTERS</type>
-          <order>KEEP</order>
-        </group>
-        <group>
-          <type>DEPENDENT_METHODS</type>
-          <order>DEPTH_FIRST</order>
-        </group>
-      </groups>
-      <rules>
-        <rule>
-          <match>
-            <CONST />
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
-              <PUBLIC />
-              <STATIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
-              <PROTECTED />
-              <STATIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
-              <PRIVATE />
-              <STATIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
-              <PROTECTED />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
-              <PRIVATE />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <CONSTRUCTOR />
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <PUBLIC />
-              <STATIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <PROTECTED />
-              <STATIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <PRIVATE />
-              <STATIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <PROTECTED />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <PRIVATE />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <TRAIT />
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <INTERFACE />
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <CLASS />
-          </match>
-        </rule>
-      </rules>
-    </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="SASS">
     <indentOptions>
